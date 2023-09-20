@@ -6,6 +6,7 @@ favicon: /-/sreejitaduttaa.github.io/fastn-challenge-8/favicon.ico
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: fifthtry.github.io/button
 
 -- fastn.auto-import: sreejitaduttaa.github.io/fastn-challenge-8/FASTN/ds
 -- fastn.auto-import: sreejitaduttaa.github.io/fastn-challenge-8/assets
