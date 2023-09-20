@@ -1,40 +1,238 @@
--- ds.page: Welcome to doc-site
+-- import: fifthtry.github.io/button
+
+-- boolean $show: false
+
+-- ftd.color brownie: 
+light: #815B5B
+dark: #815B5B 
+
+-- ftd.shadow s: 
+color: $brownie 
+x-offset.px: 3
+y-offset.px: 3 
+blur.px: 8
+
+-- ftd.column:
+align-content: center
+width: fill-container
+background.solid: #FFF8EA
+padding.px: 20
+
+-- ftd.container:
+color: #594545
+;; height.fixed.px: 540 
+width.fixed.px: 600
+background.solid: #9E7676
+padding.px: 20
+shadow: $s 
+margin.px: 10
+border-radius.px: 10
+ 
+
+-- ftd.column:
+spacing.fixed.px: 0
+width: fill-container
+;; align-content: center
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: Register
+role: $inherited.types.heading-medium
+padding.px: 5
+align-self: center
 
 
--- ds.h3: 🎯 Used by?
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.text: Name
+role: $inherited.types.blockquote
+margin-top.px: 2
+margin-bottom.px: 4
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.text-input:
+placeholder: Enter your full name
+type: text
+padding-horizontal.px: 16
+padding-vertical.px: 10
+width.fixed.px: 563
+border-width.px: 1
+border-color: #594545
+border-radius.px: 4
+align-self: center
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
--- end: ds.page
+
+-- ftd.text: City
+role: $inherited.types.blockquote
+margin-top.px: 10
+margin-bottom.px: 5
+
+
+-- ftd.text-input:
+placeholder: Enter your city
+type: text
+padding-horizontal.px: 16
+padding-vertical.px: 10
+width.fixed.px: 563
+border-width.px: 1
+border-color: #594545
+border-radius.px: 4
+align-self: center
+
+
+
+-- ftd.text: Education
+role: $inherited.types.blockquote
+margin-top.px: 10
+margin-bottom.px: 5
+
+
+-- ftd.text-input:
+placeholder: Enter your education details
+type: text
+padding-horizontal.px: 16
+padding-vertical.px: 10
+width.fixed.px: 563
+border-width.px: 1
+border-color: #594545
+border-radius.px: 4
+align-self: center
+
+
+
+
+-- ftd.text: Resume
+role: $inherited.types.blockquote
+margin-top.px: 10
+margin-bottom.px: 5
+
+
+-- ftd.text-input:
+placeholder: Enter job profile
+padding-vertical.px: 10
+align-self: start
+type: file
+
+
+
+-- ftd.text: Phone Number
+role: $inherited.types.blockquote
+margin-top.px: 10
+margin-bottom.px: 5
+
+
+-- ftd.text-input:
+placeholder: Enter your phone number
+type: text
+padding-horizontal.px: 16
+padding-vertical.px: 10
+width.fixed.px: 563
+border-width.px: 1
+border-color: #594545
+border-radius.px: 4
+align-self: center
+max-length: 10
+
+
+
+-- ftd.text: Address
+role: $inherited.types.blockquote
+margin-top.px: 10
+margin-bottom.px: 5
+
+
+-- ftd.text-input:
+placeholder: Enter your complete address
+type: text
+padding-horizontal.px: 16
+padding-vertical.px: 10
+width.fixed.px: 563
+border-width.px: 1
+border-color: #594545
+border-radius.px: 4
+align-self: center
+
+
+
+-- ftd.text: Github account URL
+role: $inherited.types.blockquote
+margin-top.px: 10
+margin-bottom.px: 5
+
+
+-- ftd.text-input:
+placeholder: Paste your github URL link here
+padding-horizontal.px: 16
+padding-vertical.px: 10
+width.fixed.px: 563
+border-width.px: 1
+border-color: #594545
+border-radius.px: 4
+align-self: center
+type: url
+
+
+
+-- ftd.text: Why do you want to become a fastn ambassador?
+role: $inherited.types.blockquote
+margin-top.px: 10
+margin-bottom.px: 5
+
+
+-- ftd.text-input:
+placeholder: Write your answer here
+type: text
+padding-horizontal.px: 16
+padding-vertical.px: 10
+width.fixed.px: 563
+height.fixed.px: 100
+border-width.px: 1
+border-color: #594545
+border-radius.px: 4
+align-self: center
+multiline: true
+
+
+
+-- ftd.text: How you can help fastn grow?
+role: $inherited.types.blockquote
+margin-top.px: 10
+margin-bottom.px: 5
+
+
+-- ftd.text-input:
+placeholder: Write your answer here
+type: text
+padding-horizontal.px: 16
+padding-vertical.px: 10
+width.fixed.px: 563
+height.fixed.px: 100
+border-width.px: 1
+border-color: #594545
+border-radius.px: 4
+align-self: center
+multiline: true
+
+
+-- ftd.row:
+align-content: right
+width: fill-container
+margin-vertical.px: 40
+
+-- button.button: Submit
+role: tertiary
+large: true
+$on-click$: $ftd.set-bool($a = $show, v = true)
+
+-- end: ftd.row
+
+-- ftd.text: Voilà, we've completed challenge 8!
+if: { show }
+style: bold 
+align-self: center 
+padding.px: 26
+
+-- end: ftd.column
+
+-- end: ftd.container
+
+-- end: ftd.column
